@@ -1,0 +1,15 @@
+In a system, some form of customer identification, such as a user ID, is entered. Next, the system fills in as much information as it knows about that customer, such as name, phone number, email, location, department, time of call, and hardware and software configurations. The system also assigns the call a unique identifier, often called a call ticket or incident number.
+ Allow customers support through many different channels, including email, online help chat, text messages, social media channels, mobile apps, and the telephone.
+Ticket and record as much of the above information before it is displayed to the Help Desk agent.
+The incident is associated with the ticket. These might include a description of the problem, the components involved, and an indication of its priority. A ticket contains all the details of the incident, its status, and any progress that has been made on it. The person working on it enters notes on the ticket. The progress made on tickets can be monitored from initiation to completion. Tickets can be prioritised automatically based on several predefined variables.
+Route calls to specific people or areas. The tickets are routed into queues where practitioners can take ownership of a ticket by picking it off the line. That practitioner’s ID is automatically recorded against the ticket.
+It indicates what is being done and then enters a description of the resolution they provided when the incident is resolved. Completed tickets are marked as closed, and some systems automatically send an email to the customer to tell them that the incident has been resolved.
+Function for automatically escalating calls and tickets. First, a predefined set of criteria is established. When an outstanding call or ticket meets these criteria, it automatically escalates to the next level. Automatic escalation systems notify the relevant Help Desk agents using various communication methods, including text messages, pagers, telephones, alarms, or simply a flag against the ticket. The tickets will also appear in that particular agent’s ticket queue.
+
+
+Priority level 1-5
+1.Critical Events / Business down
+2.Critical Events / Business impacted
+3.Events not critical / Business not impacted
+4.Event not critical / Business not impacted
+5.little proplem easy fix

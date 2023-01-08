@@ -1,0 +1,154 @@
+# Ingredients
+main
+2 Rack Baby Back Pork Ribs
+100 G Yellow Mustard
+118 G Apple Juice, Divided
+1 Tablespoon Worcestershire Sauce
+Traeger Pork Rub
+100 G Dark Brown Sugar
+100 G Honey, Warmed
+236 G Traeger 'Que BBQ Sauce
+
+from my_kitchen import *
+
+#Ingredients
+ribs = Ribs(2)
+mustard = Mustard('gram',100)
+juice = AppleJuice('gram',118)
+worcestershire = Worcestershire(tsp',1)
+rub = TraegerPorkRub(1)
+sugar = Brown Sugar('gram'100)
+honey = Honey('gram',100)
+bbq_sauce = TraegerBBQSauce('gram',236)
+
+
+
+#1 If your butcher has not already done so, remove the thin silverskin 
+membrane from the bone-side of the ribs by working the tip of a butter 
+knife or a screwdriver underneath the membrane over a middle bone. 
+Use paper towels to get a firm grip, then tear the membrane off.
+
+ribs = Ribs(2)
+
+-Ingredients
+2 Rack baby back pork ribs
+
+#2 In a small bowl, combine the mustard, 60g cup of apple juice (reserve the rest) and the Worcestershire sauce. 
+Spread the mixture thinly on both sides of the ribs and season with Traeger Pork & Poultry Rub.
+
+ingredients = Bowl()
+ingredients.add(mustard)
+ingredients.add(worcestershire)
+ingredients.add(jouice('gram',60))
+ingredients.add(rub)
+ingredients.mix()
+
+ribs.add(ingredients)
+
+
+-Ingredients
+100 g yellow mustard
+118 g apple juice, divided
+1 Tablespoon Worcestershire sauce
+To Taste Traeger Pork & Poultry Rub
+
+
+#3 When ready to cook, set Traeger temperature to 80c and preheat, lid closed for 15 minutes.
+Smoke the ribs, meat-side up for 3 hours, or until the internal temperature reaches 71c.
+
+bbq = Traeger()
+bbq.set(80, degrees='c')
+wait(900)
+bbq.smoke(ribs, hours=3)
+
+
+#4 After the ribs have smoked for 3 hours, transfer them to a rimmed baking sheet and increase the grill temperature to 107c.
+
+baking_sheet = BakingSheet()
+baking_sheet.add(ribs)
+bbq.set(107, degrees='c')
+wait(900)
+
+
+#5 Tear off four long sheets of heavy-duty aluminium foil. Top with a rack of ribs and pull up the sides to keep the liquid enclosed. 
+Sprinkle half the brown sugar on the rack, then top with half the honey and half the remaining apple juice. 
+Use a bit more apple juice if you want more tender ribs. Lay another piece of foil on top and tightly crimp the edges so there is no leakage. 
+Repeat with the remaining rack of ribs.
+
+foil = TinFoil()
+ribs.add(sugar)
+ribs.add(honey)
+foil.add(ribs)
+
+
+-Ingredients
+100 G Dark Brown Sugar
+100 G Honey, Warmed
+
+#6 
+Return the foiled ribs to the grill and cook for an additional 2 hours, or until internal temperature reaches 105.
+
+bbq.smoke(ribs, hours=2)
+
+
+#7 Carefully remove the foil from the ribs and brush the ribs on both sides with Traeger 'Que Sauce. Discard the foil. 
+Arrange the ribs directly on the grill grate and continue to grill until the sauce tightens, 30 to 60 minutes more.
+
+ribs.remove(foil)
+ribs.add(bbq_sauce)
+wait(1800)
+
+#8 
+Let the ribs rest for a few minutes before serving. Enjoy!
+
+bbq.empty()
+wait(300)
+
+# Final recipe
+
+# Ingredients
+ribs = Ribs(2)
+mustard = Mustard('gram',100)
+juice = AppleJuice('gram',118)
+worcestershire = Worcestershire(tsp',1)
+rub = TraegerPorkRub(1)
+sugar = Brown Sugar('gram'100)
+honey = Honey('gram',100)
+bbq_sauce = TraegerBBQSauce('gram',236)
+
+# Step 1:
+ribs = Ribs(2)
+ingredients = Bowl()
+ingredients.add(mustard)
+ingredients.add(worcestershire)
+ingredients.add(jouice('gram',60))
+ingredients.add(rub)
+ingredients.mix()ribs.add(ingredients)
+
+# Step 2
+bbq = Traeger()
+bbq.set(80, degrees='c')
+wait(900)
+bbq.smoke(ribs, hours=3)
+
+# Step 3
+baking_sheet = BakingSheet()
+baking_sheet.add(ribs)
+bbq.set(107, degrees='c')
+wait(900)
+
+# Step 4
+foil = TinFoil()
+ribs.add(sugar)
+ribs.add(honey)
+foil.add(ribs)
+
+# Step 5
+bbq.smoke(ribs, hours=2)
+ribs.remove(foil)
+ribs.add(bbq_sauce)
+wait(1800)
+
+# Step 6
+bbq.empty()
+wait(300)

@@ -1,0 +1,72 @@
+Case Study, 
+
+Equipment as follows with the links
+
+UDM-PRO - $890.00
+https://www.pbtech.co.nz/product/NETUBI2201/Ubiquiti-UniFi-UDM-PRO-Dream-Machine-PRO
+https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/udm-pro
+
+All-in-one, enterprise-grade UniFi OS Console and security gateway designed to host the full UniFi application suite.
+LAN ports: (8) GbE RJ45, (1) 10G SFP+
+WAN ports: (1) GbE RJ45, (1) 10G SFP+
+Threat management and traffic/client identification
+
+
+Switch PoE - $663.74
+https://store.ui.com/collections/unifi-network-switching/products/usw-16-poe
+https://pp.co.nz/product/rack-mountable-hubs-and-switches/ubiquiti-unifi-switch-usw-16-poe-switch-managed-16-x-10-100-1000-8-poe-2-x-gigabit-sfp-desktop-rack-mountable-poe-42-w-/AB06058/
+
+This is needed to provide seemless connectivity between UDM-PRO and switch plus it has (see below) witch is perfect to small / medium size network 
+(8) GbE, PoE+ RJ45 ports
+(8) GbE RJ45 ports
+(2) 1G SFP ports
+42W total PoE availability
+
+
+
+4 Computers x $1452.75
+https://www.pbtech.co.nz/product/WKAASU5401010/ASUS-Zen-AiO-24-M5401WUAT-WA010R-Business-All-in-O?type=ex-demo
+
+This is compact all in one computer witch comes with everything we need to seup call center 
+-windows
+-antivirus
+-network
+
+
+
+Printer - $2961.25
+https://www.pbtech.co.nz/product/PTROKI03748/Oki-MC853DN-A3-Printer-23ppm-1200-x-600-dpi-Colour
+
+Any work space needs a printer / this fast a relieable model.
+
+
+Ip Phone x 4 - $107.21
+https://www.pbtech.co.nz/product/IPHYLK4954027/Yealink-SIP-T31P-T31P-IP-Phone-2-VoIP-Accounts-23
+
+Ip phones are great with our POE switch. plus we can monitior and have multipule lines
+
+
+Headset x 4 - $159.85 
+https://www.pbtech.co.nz/product/HSTJAB2301/Jabra-Enterprise-2309-820-105-BIZ23000-Duo-NC-Land
+
+These are hands-free units that provide great quality of life  
+
+
+Cat6 Cable - $249.00
+https://www.pbtech.co.nz/product/CABDNX0999/Dynamix-C-C6-ST-R-GREEN-305M-Cat6-Green-UTP-STRAND
+
+Cable is needed to wired everything 
+
+Software - $49/monthly
+https://www.liveagent.com/pricing/#ComparePlans__table-head-wrap
+Spiceworks
+antivirus
+
+
+something to monitior the incoming calls
+and also to monitor the Help desk
+
+Internet connection
+$329.27
+
+
